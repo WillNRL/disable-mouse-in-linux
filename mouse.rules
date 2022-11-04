@@ -1,0 +1,1 @@
+BUS="usb", ACTION=="add", ACTION="bind", RUN+="/home/will/Desktop/work-test/test-loop.sh"
