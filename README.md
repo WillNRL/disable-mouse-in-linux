@@ -8,7 +8,7 @@ Estarei passando os passos que o repo faz para desativacao.
 
 ### Movendo a rule para o /etc/udev/rules.d. Onde a rule fara com que cada vez que o dispositivo e conectado, ele se desconecte.
 ```
-sudo cp mouse.rules /etc/udev/rules.d
+sudo cp 15-mouse.rules /etc/udev/rules.d
 ```
 ### SCRIPT
 
