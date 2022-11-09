@@ -1,1 +1,0 @@
-ACTION==”remove”, ID_BUS==”usb??”, RUN+="sh /home/will/Desktop/disable-mouse-in-linux/script.sh"

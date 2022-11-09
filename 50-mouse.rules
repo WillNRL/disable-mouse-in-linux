@@ -1,0 +1,1 @@
+SUBSYSTEM=="usb_device",ACTION==”add”,RUN+="/usr/bin/disable-mouse"

@@ -2,14 +2,8 @@
 
 Estarei passando os passos que o repo faz para desativacao.
 
-## 🚀 Começando
+## Se script.sh estiver de acordo com o gosto do usuario.
 
-### Se script.sh estiver de acordo com o gosto do usuario.
-
-### Movendo a rule para o /etc/udev/rules.d. Onde a rule fara com que cada vez que o dispositivo e conectado, ele se desconecte.
-```
-sudo cp 15-mouse.rules /etc/udev/rules.d
-```
 ### SCRIPT
 
 - Ja existe  um binario pre-pronto para execucao.
