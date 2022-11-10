@@ -1,6 +1,0 @@
-rm -f /etc/udev/rules.d/50-mouse.rules
-rm -f /usr/lib/udev/disable-mouse
-cp disable-mouse /usr/bin
-cp 50-mouse.rules /etc/udev/rules.d
-systemctl restart udev
-systemctl status udev
