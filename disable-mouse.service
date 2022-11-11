@@ -1,0 +1,5 @@
+[Unit]
+Description=Disable Mouse
+
+[Service]
+ExecStart=/bin/python3 /bin/disable-mouse/automated.py
