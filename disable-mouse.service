@@ -1,5 +1,6 @@
 [Unit]
 Description=Disable Mouse
-
 [Service]
-ExecStart=/bin/python3 /bin/disable-mouse/automated.py
+ExecStart=/bin/bash /bin/disable-mouse/disable-mouse.sh
+[Install]
+WantedBy=multi-user.target

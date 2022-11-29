@@ -1,8 +1,9 @@
 import os
 def disable():
-    os.system("xinput | grep -i mouse | grep -oi [0-9][0-9] > /tmp/tmp-id")
+    os.system("xinput | grep -i mouse | grep -oi [0-9][0-9] > /tmp/tmp-id;")
     file = open("/tmp/tmp-id").readlines()
     for i in file:
-        os.system(f"xinput disable {int(i)}")
+        os.system(f"xinput disable {int(i)};")
+    os.system("rm -f /tmp/tmp-id")
 while(True):
     disable()
