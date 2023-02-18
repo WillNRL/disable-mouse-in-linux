@@ -2,8 +2,8 @@
 Disable in Linux
 ## Explicação 
 
-Me foi pedido para fazer um script para desativação do mouse numa  maquina desktop.
-O que tenho até agora: 
+### Me foi pedido para fazer um script para desativação do mouse numa  maquina desktop.
+#### O que tenho até agora: 
 - Utilizado do script bash
   O script consistem na utilização do xinput e na criação de um arquivo txt para pegar a saída do comando abaixo, onde o conteudo da arquivo é númeração do id dos mouses conecatados no barramento.
   ```
