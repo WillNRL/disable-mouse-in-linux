@@ -9,7 +9,10 @@ Disable in Linux
   ```
   xinput | grep -i mouse | grep -oi [0-9][0-9] > /tmp/tmp-id;
   ```
-  Conteudo do script e lido por um for em bash e depois passado para o comando de xinput disable $valor (sendo o id passado no comando acima).
+  Conteudo do script e lido por um for em bash e depois passado para o comando abaixo, (sendo *$valor* o id passado no comando acima).
+  ```
+  xinput disable $valor
+  ```
 - Udevm: um sub serviço do systemctl
 - Versão do script bash em python 
 - O *.rule* para ser usada no gatilho de entrada no barramento usb, porem até agora eu consegui fazer funionar.
